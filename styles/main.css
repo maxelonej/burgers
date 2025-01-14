@@ -1,0 +1,14 @@
+:root {
+   --white: #fff;
+   --accent: #ffc725;
+   --main: #443737;
+   --addition: #44373780;
+   --description: #ffffffcc;
+   --breadcrumbs: #ffffff80;
+   --discount: #f37335;
+}
+
+body {
+   font-family: 'Nunito Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
