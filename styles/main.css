@@ -200,6 +200,15 @@ section.menu {
 }
 
 .footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
    width: var(--container-size);
    margin: 100px auto;
+
+   .footer_phones {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+   }
 }
