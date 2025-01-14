@@ -115,6 +115,7 @@ section.menu {
       bottom: 0;
       background: rgba(0, 0, 0, 0.4);
       z-index: 1;
+      margin-block: 8px;
    }
 
    .breadcrumbs {
@@ -142,5 +143,9 @@ section.menu {
       color: var(--description);
       text-align: center;
       margin: 0;
+      width: 320px;
+      font-size: 15px;
+      line-height: 160%;
+      font-weight: 400;
    }
 }
