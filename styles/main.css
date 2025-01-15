@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("elements.css");
+@import url("footer.css");
 
 :root {
    --light: #fff;
@@ -16,7 +17,7 @@
    --container-size: 1180px;
 }
 
-body {
+* {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
@@ -202,19 +203,5 @@ section.menu {
             height: 18px;
          }
       }
-   }
-}
-
-.footer {
-   display: flex;
-   justify-content: space-between;
-   align-items: flex-start;
-   width: var(--container-size);
-   margin: 100px auto;
-
-   .footer_phones {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
    }
 }
