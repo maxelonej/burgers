@@ -181,13 +181,14 @@ section.menu {
       }
 
       .button {
+         display: flex;
+         align-items: center;
+         justify-content: center;
          margin-top: 20px;
          outline: none;
          border: none;
          width: 152px;
          height: 38px;
-         align-items: start;
-         justify-content: center;
          padding: 0;
 
          .cart {
