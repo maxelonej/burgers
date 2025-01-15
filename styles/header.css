@@ -40,7 +40,7 @@
             .menu__link::after {
                content: '';
                display: block;
-               width: 100%;
+               width: 0;
                height: 3px;
                border-radius: 1.5px;
                background: transparent;
@@ -48,11 +48,13 @@
             }
 
             .menu__link:hover::after {
+               width: 100%;
                background: var(--accent-light);
             }
          }
 
          :first-child .menu__link::after {
+            width: 100%;
             background: var(--accent-light);
          }
       }
