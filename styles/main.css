@@ -45,6 +45,10 @@ body {
    transition: var(--transition);
 }
 
+.button:hover {
+   filter: brightness(0.9)
+}
+
 .row {
    display: flex;
    justify-content: space-between;
