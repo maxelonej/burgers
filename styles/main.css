@@ -142,7 +142,7 @@ section.menu {
    }
 }
 
-.burgers, .additionally {
+.section {
    width: var(--container-size);
    margin: 100px auto;
 
