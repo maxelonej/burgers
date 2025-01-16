@@ -87,6 +87,8 @@ section.menu {
    .advertisement {
       width: 738px;
       margin-inline: 15px;
+      margin-top: 72px;
+      margin-bottom: 80px;
       padding-inline: 40px;
       background: url("../assets/advertisement/background.png");
 
