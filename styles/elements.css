@@ -2,7 +2,10 @@
    padding: 10px 30px;
    width: 279px;
    height: 44px;
-   border: 1px solid #dedede;
+   border: 1px solid var(--line);
+   appearance: none;
+   background: url("../assets/chevron-down.svg") no-repeat 89% center;
+   background-size: 14px 10px;
    border-radius: 22px;
    font-weight: 400;
    font-size: 15px;
