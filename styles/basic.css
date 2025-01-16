@@ -129,8 +129,38 @@ img {
 
 @media screen and (width <= 768px) {
    .section {
+      flex-direction: column;
+      align-items: start;
       width: 738px;
       margin-inline: 15px;
+      margin-bottom: 140px;
+
+      .title {
+         font-size: 44px;
+         color: #1B2A49;
+      }
+
+      &.row .container {
+         display: flex;
+         flex-direction: row;
+         width: 100%;
+
+         img {
+            width: 445px;
+            height: 260px;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+         }
+
+         .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-inline: auto;
+         }
+      }
    }
 
    .container {
@@ -146,6 +176,12 @@ img {
    .section {
       width: 330px;
       margin-top: 50px;
+      margin-bottom: 80px;
+
+      .title {
+         font-size: 27px;
+         color: #1B2A49;
+      }
 
       .row {
          .title {
@@ -156,6 +192,13 @@ img {
             width: 136px;
             padding: 8px 15px;
             font-size: 12px;
+         }
+      }
+
+      &.row .container {
+         img {
+            width: 181px;
+            height: 144px;
          }
       }
 
