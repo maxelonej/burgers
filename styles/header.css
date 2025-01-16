@@ -120,7 +120,7 @@
 
 @media screen and (width <= 360px) {
    .header {
-      padding: 20px 15px;
+      padding: 19px 15px;
 
       .hamburger-menu {
          display: block;
