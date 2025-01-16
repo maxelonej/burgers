@@ -126,3 +126,61 @@ img {
       }
    }
 }
+
+@media screen and (width <= 768px) {
+   .section {
+      width: 738px;
+      margin-inline: 15px;
+   }
+
+   .container {
+      width: 359px;
+   }
+
+   :root {
+      --accent-light: #fbb731;
+   }
+}
+
+@media screen and (width <= 360px) {
+   .section {
+      width: 330px;
+      margin-top: 50px;
+
+      .row {
+         .title {
+            font-size: 27px;
+         }
+
+         .sort {
+            width: 136px;
+            padding: 8px 15px;
+            font-size: 12px;
+         }
+      }
+
+      .container:nth-child(1), .container:nth-child(2) {
+         margin-top: 31px;
+      }
+
+      .container {
+         .name {
+            margin-top: 7px;
+            font-size: 13px;
+         }
+
+         .price {
+            font-size: 12px;
+         }
+
+         .button {
+            width: 129px;
+            margin-top: 7px;
+         }
+      }
+   }
+
+   .container {
+      width: 155px;
+   }
+}
