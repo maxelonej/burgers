@@ -126,7 +126,7 @@ section.menu {
       width: 330px;
       padding: 35px 17px;
       margin-top: 33px;
-      margin-bottom: 50px;
+      margin-bottom: 0;
       background: url("../assets/advertisement/background.png") 23%;
 
       .description {
