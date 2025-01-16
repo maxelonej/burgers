@@ -60,7 +60,7 @@ img {
 }
 
 .section {
-   width: var(--container-size);
+   max-width: var(--container-size);
    margin: 100px auto;
 
    .row {

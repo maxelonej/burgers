@@ -4,7 +4,7 @@
    justify-content: space-between;
    padding: 26px;
    margin: 0 auto;
-   width: var(--container-size);
+   max-width: var(--container-size);
 
    .hamburger-logo-wrapper {
       display: flex;
