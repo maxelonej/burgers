@@ -11,6 +11,11 @@
       width: var(--container-size);
       margin: 0 auto;
 
+      .logo {
+         width: 63px;
+         height: 56px;
+      }
+
       .footer__links, .footer__information {
          .title {
             text-transform: uppercase;
