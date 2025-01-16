@@ -1,0 +1,123 @@
+:root {
+   --light: #fff;
+   --dark: #443737;
+   --accent-light: #ffc725;
+   --accent-dark: #f37335;
+   --addition: #44373780;
+   --description: #ffffffcc;
+   --breadcrumbs: #ffffff80;
+   --footer-bg: #1e2f40;
+   --ff-header: 'Nunito Sans', sans-serif; 
+   --ff-text: 'Open Sans', sans-serif;
+   --transition: .3s ease-in-out;
+   --container-size: 1180px;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: var(--ff-text);
+}
+
+.description {
+   color: var(--description);
+   margin: 0;
+   font-size: 15px;
+   line-height: 160%;
+   font-weight: 400;
+   width: 320px;
+}
+
+.button {
+   padding: 14px 24px;
+   text-transform: uppercase;
+   font-family: var(--ff-header);
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 129%;
+   color: var(--dark);
+   border-radius: 5px;
+   background: var(--accent-light);
+   transition: var(--transition);
+}
+
+.button:hover {
+   filter: brightness(0.9)
+}
+
+.row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.wrapper {
+   display: flex;
+   align-items: start;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.section {
+   width: var(--container-size);
+   margin: 100px auto;
+
+   .title {
+      margin: 0;
+      font-family: var(--ff-header);
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 127%;
+      text-transform: uppercase;
+      color: #443737;
+   }
+
+   .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+
+      .name {
+         margin-top: 20px;
+         margin-bottom: 5px;
+         font-family: var(--ff-header);
+         font-weight: 600;
+         font-size: 30px;
+         line-height: 127%;
+         text-align: center;
+         color: var(--dark);
+      }
+
+      .price {
+         margin: 0;
+         font-family: var(--second-family);
+         font-weight: 700;
+         font-size: 20px;
+         line-height: 140%;
+         text-align: center;
+         color: var(--addition);
+      }
+
+      .button {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-top: 20px;
+         outline: none;
+         border: none;
+         width: 152px;
+         height: 38px;
+         padding: 0;
+
+         .cart {
+            margin-right: 8px;
+            width: 18px;
+            height: 18px;
+         }
+      }
+   }
+}
