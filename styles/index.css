@@ -82,3 +82,24 @@ section.menu {
       margin-bottom: 30px;
    }
 }
+
+@media screen and (width <= 360px) {
+   section.menu {
+      padding: 61px;
+      background: url("../assets/menu/mobile-background.jpg") no-repeat center center;
+
+      .breadcrumbs {
+         white-space: nowrap;
+      }
+
+      .title {
+         white-space: nowrap;
+         font-size: 38px;
+      }
+
+      .description {
+         font-size: 12px;
+         line-height: 20px;
+      }
+   }
+}
