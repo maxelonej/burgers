@@ -21,6 +21,10 @@
    font-family: var(--ff-text);
 }
 
+img {
+   width: 100%;
+}
+
 .description {
    color: var(--description);
    margin: 0;
