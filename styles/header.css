@@ -26,6 +26,10 @@
    }
 
    .menu {
+      .menu__close {
+         display: none;
+      }
+
       .menu__list {
          position: relative;
          display: flex;
@@ -153,6 +157,7 @@
          }
 
          .menu__close {
+            display: block;
             position: absolute;
             top: 20px;
             right: 20px;
