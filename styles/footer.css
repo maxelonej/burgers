@@ -108,6 +108,7 @@
    .footer {
       .footer__wrapper {
          grid-template-columns: 1fr;
+         gap: 30px;
 
          .footer_phones {
             transform: none;
