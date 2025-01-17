@@ -10,7 +10,7 @@
    align-items: center;
    padding: 142px;
    color: var(--light);
-   background: url("../assets/menu/background.jpg") no-repeat center center;
+   background: url("../assets/intro/index/background.jpg") no-repeat center center;
 
    &::before {
       content: '';
@@ -113,7 +113,7 @@
 @media screen and (width <= 361px) {
    .intro {
       padding: 61px;
-      background: url("../assets/menu/mobile-background.jpg") no-repeat center center;
+      background: url("../assets/intro/index/mobile-background.jpg") no-repeat center center;
 
       .title {
          font-size: 38px;
