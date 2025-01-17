@@ -118,7 +118,7 @@
    }
 }
 
-@media screen and (width <= 361px) {
+@media screen and (width <= 660px) {
    .header {
       padding: 19px 15px;
 

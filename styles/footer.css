@@ -76,6 +76,14 @@
    }
 }
 
+@media screen and (width <= 1025px) {
+   .footer {
+      .footer__wrapper {
+         padding-inline: 15px;
+      }
+   }
+}
+
 @media screen and (width <= 769px) {
    .footer {
       padding: 0;
@@ -87,11 +95,22 @@
          padding-inline: 15px;
          padding-top: 59px;
          padding-bottom: 71px;
-         width: 738px;
 
          .footer_phones {
             transform: translateX(100%) translateY(13px);
             white-space: nowrap;
+         }
+      }
+   }
+}
+
+@media screen and (width <= 471px) {
+   .footer {
+      .footer__wrapper {
+         grid-template-columns: 1fr;
+
+         .footer_phones {
+            transform: none;
          }
       }
    }

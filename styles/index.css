@@ -87,7 +87,6 @@ section.menu {
 
 @media screen and (width <= 769px) {
    .advertisement {
-      width: 738px;
       margin-top: 72px;
       margin-bottom: 80px;
       padding-inline: 40px;
@@ -99,6 +98,14 @@ section.menu {
 
       .title {
          font-size: 60px;
+      }
+   }
+}
+
+@media screen and (width <= 471px) {
+   section.menu {
+      .title {
+         font-size: 38px;
       }
    }
 }
@@ -119,7 +126,6 @@ section.menu {
    }
 
    .advertisement {
-      width: 330px;
       padding: 35px 17px;
       margin-top: 33px;
       margin-bottom: 0;
