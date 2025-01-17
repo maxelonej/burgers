@@ -1,1 +1,1 @@
-[live demo](https://maxelonej.github.io/burgers/)
+[live demo](burgers-psi.vercel.app/)
