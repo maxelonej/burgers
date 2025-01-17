@@ -108,6 +108,7 @@
 
 @media screen and (width <= 769px) {
    .header {
+      position: relative;
       width: 100%;
       padding: 30px 15px;
 
@@ -115,12 +116,6 @@
          width: 150px;
          height: 47px;
       }
-   }
-}
-
-@media screen and (width <= 660px) {
-   .header {
-      padding: 19px 15px;
 
       .hamburger-menu {
          display: block;
@@ -132,7 +127,45 @@
       }
 
       .menu {
-         display: none;
+         position: absolute;
+         top: 20px;
+         left: 10%;
+         z-index: 3;
+         visibility: hidden;
+         opacity: 0;
+         width: 80%;
+         background: #fff8dc;
+         transition: var(--transition);
+
+         &.active {
+            visibility: visible;
+            opacity: 1;
+         }
+
+         .menu__list {
+            display: flex;
+            flex-direction: column;
+            padding-block: 40px;
+
+            :first-child .menu__link::after {
+               display: none;
+            }
+         }
+
+         .menu__close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 22px;
+            height: 22px;
+            z-index: 2;
+         }
       }
+   }
+}
+
+@media screen and (width <= 769px) {
+   .header {
+      padding: 19px 15px;
    }
 }
