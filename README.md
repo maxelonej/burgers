@@ -1,1 +1,1 @@
-[live demo](burgers-psi.vercel.app/)
+[live demo](https://burgers-psi.vercel.app/)
